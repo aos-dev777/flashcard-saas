@@ -76,7 +76,7 @@ This project was developed by **Omer Tariq** as part of a hands-on initiative wi
 I designed and shipped this tool to demonstrate how LLMs can generate personalized study experiences at scale — built fully in **Next.js** with responsive UI, secure authentication, and dynamic user flows.
 
 > 🔗 Connect with me:  
-> [GitHub](https://github.com/aos-dev777) | [LinkedIn](https://www.linkedin.com/in/omertariq/)
+> [GitHub](https://github.com/aos-dev777) | [LinkedIn](https://www.linkedin.com/in/omer-tariq-698456295/)
 
 ---
 
