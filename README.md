@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡️ Flashcard SaaS – AI-Powered Study App
 
-## Getting Started
+A full-stack flashcard generation platform that uses GPT-4o to create accurate study decks from user input. Built as a Software-as-a-Service (SaaS) app with secure authentication, subscription billing, and dynamic flashcard rendering.
 
-First, run the development server:
+> 🧠 Powered by OpenAI · Built with Next.js, React, Firebase, Clerk, and Stripe  
+> 🔐 Created under Headstarter AI with full-stack ownership by Omer Tariq
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🤖 AI Flashcard Generation  
+  Uses GPT-4o-mini to convert raw text or topics into clean, accurate flashcards with over 97% accuracy (10-trial average)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🗂 User Dashboard  
+  View, organize, and review all generated decks — real-time synced with Firebase
 
-## Learn More
+- 🔐 Clerk Authentication  
+  Secure login, sign-up, and user session management with Clerk API
 
-To learn more about Next.js, take a look at the following resources:
+- 💳 Stripe Integration  
+  Built-in Stripe subscription model with billing tiers and plan upgrades
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📦 Serverless & Scalable  
+  Fully deployable via Vercel with Firebase backend support
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧪 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Layer         | Tools / Services                         |
+|---------------|-------------------------------------------|
+| Frontend      | React · Next.js · Tailwind CSS           |
+| AI Backend    | OpenAI GPT-4o API                        |
+| Auth          | Clerk                                    |
+| Database      | Firebase Firestore                       |
+| Payments      | Stripe API                               |
+| Deployment    | Vercel + GitHub CI/CD                    |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠 Setup Instructions
+
+### 1. Clone the repo
+
+
+### 2. Install dependencies
+
+
+### 3. Create `.env.local` and add:
+
+
+### 4. Run locally
+
+
+---
+
+## 📌 Roadmap
+
+- [x] AI Flashcard Generator MVP  
+- [x] Auth + Firebase integration  
+- [x] Stripe Billing  
+- [ ] Flashcard review mode (spaced repetition)  
+- [ ] Export decks to Anki or Quizlet  
+- [ ] Collaboration / shareable decks  
+
+---
+
+## 👨‍💻 About the Developer
+
+**Omer Tariq**  
+AI-Driven Product Builder | CS @ UT Dallas | Founder @ AOS Projects
+
+This project was developed by **Omer Tariq** as part of a hands-on initiative with **Headstarter AI**, where I led the end-to-end build of an AI-powered SaaS flashcard platform. Drawing from my experience as a student and developer, I combined OpenAI’s GPT-4o API with Firebase, Clerk, and Stripe to streamline the way students prepare for exams.
+
+I designed and shipped this tool to demonstrate how LLMs can generate personalized study experiences at scale — built fully in **Next.js** with responsive UI, secure authentication, and dynamic user flows.
+
+> 🔗 Connect with me:  
+> [GitHub](https://github.com/aos-dev777) | [LinkedIn](https://www.linkedin.com/in/omertariq/)
+
+---
+
+## 📄 License
+
+MIT License — feel free to use and build on top of it.
